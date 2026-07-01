@@ -1,0 +1,56 @@
+canonical_identifier: bkk:krp/KR6j0340/v1
+canonical_location: https://kanripo.org/bkk/KR6j0340/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金剛頂瑜伽金剛薩埵五祕密修行念誦儀軌
+  identifiers:
+    alt_id:
+    - T20n1125
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T20/T20n1125.xml
+    old_id: T20n1125
+  edition:
+    short: bkk
+editions:
+- short: 乙
+  label: 乙
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 明
+  label: 明
+  source_xml_id: wit4
+- short: 甲
+  label: 甲
+  source_xml_id: wit5
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0340_000.yaml, hash: 'sha256:6bb412016abbdce5fef9328da47c0a08feccd50be837b70d69b34a5518806a76'}
+  - {seq: 1, filename: KR6j0340_001.yaml, hash: 'sha256:14e3b4cf530bd2414059a37a686c4122990760ead69da43833fec43da8e09f09'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0340_001.markers.yaml, hash: 'sha256:7e11caa5ff25d302b760bf45767bbc3b8912ef416e8b4cc15d5146798a508671'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0340_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4621
+  label: '金剛頂瑜伽金剛薩埵五祕密修
+
+    行念誦儀軌'
+  type: juan
+  level: 1
+hash: sha256:65ef40c16d9bcb7c2140f3e3836f457e88ad853e2e2d7a04e07f6725eed5f746
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
