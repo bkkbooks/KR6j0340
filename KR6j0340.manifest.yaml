@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0340_000.yaml, hash: 'sha256:6bb412016abbdce5fef9328da47c0a08feccd50be837b70d69b34a5518806a76'}
-  - {seq: 1, filename: KR6j0340_001.yaml, hash: 'sha256:14e3b4cf530bd2414059a37a686c4122990760ead69da43833fec43da8e09f09'}
+  - {seq: 1, filename: KR6j0340_001.yaml, hash: 'sha256:d15a0782a5b3f66fc710e5d7d2a88d6188cfdd22bba6a72b2d56a2a69acec225'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0340_001.markers.yaml, hash: 'sha256:7e11caa5ff25d302b760bf45767bbc3b8912ef416e8b4cc15d5146798a508671'}
+  - {seq: 0, role: markers, filename: assets/KR6j0340_000.markers.yaml, hash: 'sha256:5703c965deed06739687bac2690ab5e9b1473b44f4266c682197d9093c3a8b85'}
+  - {seq: 1, role: markers, filename: assets/KR6j0340_001.markers.yaml, hash: 'sha256:504d5cd6329240e9308c80d8d6a851ef92fc14e145fc7df20e300a03c4bdf65e'}
 table_of_contents:
 - ref:
     seq: 1
@@ -50,7 +51,4 @@ table_of_contents:
     行念誦儀軌'
   type: juan
   level: 1
-hash: sha256:65ef40c16d9bcb7c2140f3e3836f457e88ad853e2e2d7a04e07f6725eed5f746
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:d5d36057a7785eaedf6e2c137ce08f3144eb486ba1f8375a9b7b07868ab63e32
